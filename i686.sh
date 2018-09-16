@@ -2,6 +2,6 @@
 set -ex
 
 source ./i686-source.sh
-exec build-generic.sh
+./build-generic.sh
 
 

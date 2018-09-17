@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -uex
 
 mkdir -p build/${TARGET}

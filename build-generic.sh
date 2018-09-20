@@ -14,7 +14,7 @@ popd
 rm -rf "build/${TARGET}/build-gcc"
 mkdir -p "build/${TARGET}/build-gcc"
 pushd "build/${TARGET}/build-gcc"
-../../../src/gcc-${GCC_VERSION}/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
+../../../src/gcc-${GCC_VERSION}/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c --without-headers
 make all-gcc
 make all-target-libgcc
 make install-gcc

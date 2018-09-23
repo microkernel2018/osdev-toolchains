@@ -2,6 +2,7 @@
 set -ex
 
 source ./i686-source.sh
-./build-generic.sh
+source ./build-generic.sh
 
-
+build_binutils
+build_gcc

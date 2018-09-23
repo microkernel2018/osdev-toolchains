@@ -2,5 +2,7 @@
 set -ex
 
 source ./x64-source.sh
-./build-generic.sh
+source ./build-generic.sh
 
+build_binutils
+build_gcc
